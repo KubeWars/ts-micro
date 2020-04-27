@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noStrictGenericChecks": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "target": "es2020",
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
