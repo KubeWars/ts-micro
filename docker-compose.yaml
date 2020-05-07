@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ts-micro:
+    build: .
+    image: redgreenblu3/ts-micro
+    container_name: ts-micro
+    ports:
+    - "8080:8080"
